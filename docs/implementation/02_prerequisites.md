@@ -1,13 +1,11 @@
 # 2. Prerequisites
 
 ## AWS Environment Requirements
-```bash
 # Verify AWS CLI version
 aws --version  # Required: 2.11.24 or higher
 
 # Check AWS configuration
 aws configure list
-```
 
 ## Network Requirements
 - VPC with three subnets across different AZs
@@ -17,7 +15,6 @@ aws configure list
   - Outbound rules: All traffic
 
 ## IAM Requirements
-```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -32,4 +29,4 @@ aws configure list
         }
     ]
 }
-```
+

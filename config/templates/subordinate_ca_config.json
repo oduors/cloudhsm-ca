@@ -1,0 +1,11 @@
+{
+  "KeyAlgorithm": "RSA_2048",
+  "SigningAlgorithm": "SHA256WITHRSA",
+  "Subject": {
+    "Country": "[COUNTRY]",
+    "Organization": "[ORGANIZATION]",
+    "OrganizationalUnit": "[ORG_UNIT]",
+    "State": "[STATE]",
+    "CommonName": "[COMMON_NAME] Subordinate CA"
+  }
+}
